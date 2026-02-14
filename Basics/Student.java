@@ -16,6 +16,6 @@ public class Student {
 
         Student s1 = new Student();
         s1.name = "Aryan";
-        s1.showName();           // non-static call
+        s1.showName();      // non-static call
     }
 }

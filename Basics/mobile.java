@@ -7,6 +7,11 @@ public class mobile
        this.colour=colour;
        price=100000;
     } 
+    mobile ()
+    {
+        this("Black"); // chaining
+        price=0;
+    }
     public void display()
     {
         System.out.println(colour);
@@ -14,7 +19,9 @@ public class mobile
         
     }
     public static void main(String[] args) {
-        mobile c1= new mobile("red"); // compulsory to pass an arg 
+        mobile c1= new mobile("red");
+        mobile c2 = new mobile(); // compulsory to pass an arg 
         c1.display();
+        c2.display();
     }
 }

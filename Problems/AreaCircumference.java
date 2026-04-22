@@ -9,19 +9,22 @@
 //         System.out.println("Circumference is = " + cir);
 //     }
 // }
+
 import java.util.Scanner;
-public class AreaCircumference 
-{
+
+public class AreaCircumference {
+
     double radius;
 
-    AreaCircumference (double radius) {
+    AreaCircumference(double radius) {
         this.radius = radius;
     }
 
     double area() {
         return Math.PI * Math.pow(radius, 2);
     }
-    double circumference () {
+
+    double circumference() {
         return 2 * Math.PI * radius;
     }
 
@@ -30,6 +33,7 @@ public class AreaCircumference
         return "Cricle properties : Radius = " + radius + ", Area = " + area()
                 + ", Circumference " + circumference();
     }
+    
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

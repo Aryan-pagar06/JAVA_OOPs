@@ -12,16 +12,23 @@ public class mobile
         this("Black"); // chaining
         price=0;
     }
+
+    public mobile(String colour, float price) {
+        this.colour = colour;
+        this.price = price;
+    }
     public void display()
     {
         System.out.println(colour);
         System.out.println(price);
         
     }
+    
     public static void main(String[] args) {
         mobile c1= new mobile("red");
         mobile c2 = new mobile(); // compulsory to pass an arg 
         c1.display();
         c2.display();
     }
+
 }

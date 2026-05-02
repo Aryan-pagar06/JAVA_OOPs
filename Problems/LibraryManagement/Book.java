@@ -1,6 +1,6 @@
 public class Book extends LibraryItem
 {
-    private String isbn;
+    private final String isbn;
 
     public Book(String isbn, String title) {
         super(title);

@@ -38,6 +38,8 @@ public class StackImplementation {
         } catch (Throwable th) {
             System.out.println(th.getMessage());
             throw th;
+        } finally {
+            System.out.println("I am in finally");   //always runs
         }
         
     }

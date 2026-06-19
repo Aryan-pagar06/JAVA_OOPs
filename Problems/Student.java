@@ -8,7 +8,7 @@ public class Student
 
     public Student (String name, int age, int mark) {
         this.name = name;
-        this.marks = marks;
+        this.marks = mark;
         this.age = age;
     }
 

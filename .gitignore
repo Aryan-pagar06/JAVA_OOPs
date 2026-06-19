@@ -1,7 +1,7 @@
 # Ignore Java compiled files
 *.class
 
-# Ignore logs (optional)
+# Ignore logs 
 *.log
 
 # Ignore OS files
